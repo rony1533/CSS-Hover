@@ -1,0 +1,24 @@
+
+.linha {
+    display: flex;
+
+}
+.coluna {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: blue;
+    transition: 0.5s;
+}
+.c1:hover {
+    background-color: red;
+    transform: rotate(0.5turn);
+}
+.c2:hover {
+    background-color: yellow;
+    transform: translateX(10px);
+}
+.c3:hover {
+    background-color: greenyellow;
+    transform: rotate(0.5turn) translateY(7.5em);
+}
